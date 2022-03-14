@@ -33,14 +33,6 @@ public class RootController {
         int index = (int) (Math.random() * jokeArray.size());
         return jokeArray.get(index);
     }
-//    @GetMapping
-//    public  void test(@PathVariable("id") String id){
-//        System.out.println("id" +id);
-//    }
-//    @PostMapping
-//    public void test2(@RequestParam(value ="id",required = false,defaultValue  ="0")String id,@RequestParam(value="age")String age){
-//        System.out.println("id"+id);
-//        System.out.println("age"+age);
-//    }
+
 
 }
